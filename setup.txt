@@ -1,0 +1,10 @@
+1. OmniParser/omnitool/omnibox/vm/win11setup/setupscripts/server
+   python main.py
+
+2. OmniParser/omnitool/omniparserserver
+   python -m omniparserserver --som_model_path ../../weights/icon_detect/model.pt --caption_model_name florence2 --caption_model_path ../../weights/icon_caption_florence --device cuda --BOX_TRESHOLD 0.05
+
+3. OmniParser/omnitool/gradio
+   python app.py
+
+
